@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import Experience from './components/Experience';
 
 const DATA = {
   name: 'Minh Khoi LE',
@@ -80,6 +81,8 @@ export default function App(){
             </div>
           </div>
 
+		<Experience />
+		
           <div className="grid">
             {DATA.projects.map((p,i)=>(
               <div className="card" key={i}>
@@ -129,6 +132,8 @@ export default function App(){
     </div>
   )
 }
+
+
 
 /*
 Gamer / tech-nerd bio variant (no em-dashes, commas only):
