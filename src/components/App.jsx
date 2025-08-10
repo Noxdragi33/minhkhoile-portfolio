@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import Experience from './components/Experience';
+import Experience from "./components/Experience.jsx";
 
 const DATA = {
   name: 'Minh Khoi LE',
