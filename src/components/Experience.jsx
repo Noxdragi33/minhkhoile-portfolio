@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Experience.css"; // style file we will add
+import "./components/Experience.css"; // style file we will add
 
 const experiences = [
   {
